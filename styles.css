@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+#treeViewContainer {
+    margin: 20px;
+}
+
+#categoryTree {
+    list-style-type: none;
+    padding: 0;
+}
+
+#categoryTree li {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#categoryTree li:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+#productTableContainer {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+#productTable {
+    max-width: 100%;
+}
